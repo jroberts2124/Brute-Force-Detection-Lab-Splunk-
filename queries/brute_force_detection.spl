@@ -6,4 +6,4 @@ index=* ("Failed password" OR EventCode=4625)
 | stats count by _time, username, source_ip
 | where count >= 3
 | sort -count
-
+| eval alert="Brute Force Suspected"
