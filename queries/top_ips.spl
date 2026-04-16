@@ -1,0 +1,5 @@
+index=* ("Failed password" OR EventCode=4625)
+| eval source_ip=coalesce(src, Source_Network_Address, rhost, client_ip)
+| where isnotnull(source_ip)
+| stats count by source_ip
+| sort -count
