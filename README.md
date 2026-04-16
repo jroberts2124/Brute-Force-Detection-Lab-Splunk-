@@ -1,8 +1,6 @@
 # Brute-Force-Detection-Lab-Splunk-
 Brute Force demonstration and detection using Splunk
 
-🛡️ Brute Force Attack Detection Lab (Splunk SIEM)
-
 ## Overview
 
 This project demonstrates detection of brute-force login attacks using Splunk SIEM. A lab environment was created with an endpoint system and a Splunk instance to simulate attacks, ingest logs, and build detection logic.
