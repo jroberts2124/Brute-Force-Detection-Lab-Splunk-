@@ -44,16 +44,8 @@ This project demonstrates detection of brute-force login attacks using Splunk SI
 
 ### Brute Force Detection
 
-```spl
-index=* ("Failed password" OR EventCode=4625)
-| eval username=coalesce(user, Account_Name, TargetUserName)
-| eval source_ip=coalesce(src, Source_Network_Address, rhost, client_ip)
-| bin _time span=10m
-| stats count by _time, username, source_ip
-| where count >= 3
-```
+<img width="975" height="282" alt="image" src="https://github.com/user-attachments/assets/a1696c31-3fcd-4279-801a-4e5d955b6712" />
 
----
 
 ### Possible Account Compromise
 
