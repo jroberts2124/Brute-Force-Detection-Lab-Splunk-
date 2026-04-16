@@ -46,6 +46,9 @@ This project demonstrates detection of brute-force login attacks using Splunk SI
 
 <img width="975" height="282" alt="image" src="https://github.com/user-attachments/assets/a1696c31-3fcd-4279-801a-4e5d955b6712" />
 
+<img width="975" height="393" alt="image" src="https://github.com/user-attachments/assets/9d06a048-97c0-4b40-bd78-2885e644a77d" />
+
+
 
 ### Possible Account Compromise
 
