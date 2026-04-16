@@ -62,36 +62,5 @@ This project demonstrates detection of brute-force login attacks using Splunk SI
 
 ```
 
-## MITRE ATT&CK Mapping
 
-* **T1110 – Brute Force**
-* Tactic: Credential Access
-
----
-
-## Project Structure
-
-* `queries/` → SPL detection queries
-* `dashboards/` → Dashboard configurations
-* `reports/` → Incident report
-* `screenshots/` → Proof of detection
-* `lab_setup/` → Setup instructions
-
----
-
-## Skills Demonstrated
-
-* SIEM (Splunk)
-* Log Analysis
-* Threat Detection
-* SOC Workflow
-* Incident Reporting
-
----
-
-## Conclusion
-
-This lab simulates a real-world brute-force attack and demonstrates detection, analysis, and reporting using Splunk.
-
----
 
