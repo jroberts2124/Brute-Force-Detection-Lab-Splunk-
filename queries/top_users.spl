@@ -1,0 +1,4 @@
+index=* ("Failed password" OR EventCode=4625)
+| eval username=coalesce(user, Account_Name, TargetUserName)
+| stats count by username
+| sort -count
