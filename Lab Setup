@@ -1,1 +1,31 @@
+Lab Setup Guide
+Step 1: Create VMs
+* Install Windows endpoint
+* Install Splunk Enterprise on second VM
+
+Step 2: Install Forwarder
+* Install Splunk Universal Forwarder on endpoint
+* Forward:
+    * Windows: Security logs
+
+Step 3: Simulate Attack
+Run multiple failed login attempts:
+
+powershell
+for ($i=0; $i -lt 20; $i++) {
+  net use \\localhost\ipc$ /user:fakeuser wrongpassword
+}
+
+Then perform a successful login.
+
+Step 4: Verify Logs in Splunk
+Search:
+
+index=* "Failed password"
+
+Step 5: Build Dashboard
+
+Use queries from `/queries` folder.
+
+---
 
