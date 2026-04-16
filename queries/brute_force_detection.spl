@@ -1,0 +1,9 @@
+index=* ("Failed password" OR EventCode=4625)
+| eval username=coalesce(user, Account_Name, TargetUserName)
+| eval source_ip=coalesce(src, Source_Network_Address, rhost, client_ip)
+| where isnotnull(username)
+| bin _time span=10m
+| stats count by _time, username, source_ip
+| where count >= 3
+| sort -count
+
