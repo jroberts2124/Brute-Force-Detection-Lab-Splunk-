@@ -1,0 +1,10 @@
+index=* ("Failed password" OR "Accepted password" OR EventCode=4624 OR EventCode=4625)
+| eval username=coalesce(user, Account_Name, TargetUserName)
+| eval source_ip=coalesce(src, Source_Network_Address, rhost, client_ip)
+| eval action=case(
+    searchmatch("Failed password") OR EventCode=4625, "failed",
+    searchmatch("Accepted password") OR EventCode=4624, "success"
+)
+| bin _time span=15m
+| stats values(action) as actions by username, source_ip, _time
+| where mvcount(actions) > 1
