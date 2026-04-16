@@ -62,8 +62,6 @@ This project demonstrates detection of brute-force login attacks using Splunk SI
 
 ```
 
----
-
 ## MITRE ATT&CK Mapping
 
 * **T1110 – Brute Force**
