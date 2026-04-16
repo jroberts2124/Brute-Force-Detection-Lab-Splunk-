@@ -54,6 +54,24 @@ This project demonstrates detection of brute-force login attacks using Splunk SI
 
 <img width="975" height="130" alt="image" src="https://github.com/user-attachments/assets/5b6ed1ed-221c-443a-8ead-5baff35959d6" />
 
+
+## 🧠 Skills Demonstrated
+
+* SIEM (Splunk)
+* Log Analysis
+* Threat Detection
+* SOC Workflow
+* Incident Reporting
+
+---
+
+## 🏁 Conclusion
+
+This lab simulates a real-world brute-force attack and demonstrates detection, analysis, and reporting using Splunk.
+
+---
+
+
 ### Possiblw Brute Force Detection
 
 <img width="975" height="233" alt="image" src="https://github.com/user-attachments/assets/e26e9e5f-1a01-46d5-8a6d-4f8742203914" />
