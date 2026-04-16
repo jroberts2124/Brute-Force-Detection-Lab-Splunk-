@@ -8,3 +8,4 @@ index=* ("Failed password" OR "Accepted password" OR EventCode=4624 OR EventCode
 | bin _time span=15m
 | stats values(action) as actions by username, source_ip, _time
 | where mvcount(actions) > 1
+| eval alert="Possible Account Compromise"
