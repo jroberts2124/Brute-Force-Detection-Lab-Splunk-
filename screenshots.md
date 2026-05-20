@@ -4,4 +4,25 @@
 
 <img width="975" height="282" alt="image" src="https://github.com/user-attachments/assets/523028d0-7299-49d4-b5de-925d858956f2" />
 
+Create dashboard for future Brute Force Attacks
+
+<img width="975" height="282" alt="image" src="https://github.com/user-attachments/assets/881704b7-d9a2-46e7-bad9-b04e4e356c26" />
+
+<img width="975" height="447" alt="image" src="https://github.com/user-attachments/assets/a60d2b98-a31c-401e-b3a0-4f0cb0debafb" />
+
+<img width="975" height="680" alt="image" src="https://github.com/user-attachments/assets/cf43585f-7439-4620-ae44-97a403e18be8" />
+
+<img width="975" height="130" alt="image" src="https://github.com/user-attachments/assets/fa5186ef-398c-403a-b0b8-0644e9fd4113" />
+
+<img width="975" height="589" alt="image" src="https://github.com/user-attachments/assets/c62bdc63-fe99-46a9-86a6-347d309f11f1" />
+
+<img width="975" height="233" alt="image" src="https://github.com/user-attachments/assets/5510abcb-42b6-4d7e-9d0d-946b6a8ce23e" />
+
+
+
+
+
+
+
+
 
