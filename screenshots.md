@@ -9,6 +9,11 @@ Create dashboard for future Brute Force Attacks
 
 <img width="975" height="447" alt="image" src="https://github.com/user-attachments/assets/a60d2b98-a31c-401e-b3a0-4f0cb0debafb" />
 
+<img width="975" height="408" alt="image" src="https://github.com/user-attachments/assets/3838414f-3d5d-4166-a5f8-1333e8a8a7d8" />
+
+<img width="975" height="461" alt="image" src="https://github.com/user-attachments/assets/800ee5ad-1bed-452f-8995-fed46d884712" />
+
+
 <img width="975" height="680" alt="image" src="https://github.com/user-attachments/assets/cf43585f-7439-4620-ae44-97a403e18be8" />
 
 <img width="975" height="130" alt="image" src="https://github.com/user-attachments/assets/fa5186ef-398c-403a-b0b8-0644e9fd4113" />
